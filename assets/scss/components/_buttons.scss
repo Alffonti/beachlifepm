@@ -1,0 +1,10 @@
+@use '../custom' as *;
+@use '../components/mixins' as *;
+
+.btn-tertiary {
+  background-color: rgba($color: $coral, $alpha: 0.85);
+
+  &:hover {
+    background-color: rgba($color: $coral, $alpha: 0.6);
+  }
+}
