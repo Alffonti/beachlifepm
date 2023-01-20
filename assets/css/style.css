@@ -10830,6 +10830,11 @@ textarea.form-control-lg {
 .about-section .about--image {
   object-fit: cover;
 }
+@media (max-width: 575.98px) {
+  .about-section .about--image {
+    max-width: 100%;
+  }
+}
 
 .properties-section {
   background-color: rgba(143, 184, 202, 0.5);

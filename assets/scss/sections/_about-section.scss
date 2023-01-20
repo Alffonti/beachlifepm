@@ -6,8 +6,9 @@
     object-fit: cover;
   }
 
-  // @include media-breakpoint-down(sm) {
-  //   width: 20px;
-  //   max-width: 100%;
-  // }
+  .about--image {
+    @include media-breakpoint-down(sm) {
+      max-width: 100%;
+    }
+  }
 }
