@@ -4,3 +4,9 @@
 img {
   max-width: 100%;
 }
+
+@media (min-width: 375px) and (max-width: 680px) {
+  .properties-section .card img {
+    border-radius: 50px;
+  }
+}
