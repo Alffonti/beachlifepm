@@ -1,0 +1,6 @@
+@use './custom' as *;
+@use './components/mixins' as *;
+
+img {
+  max-width: 100%;
+}
