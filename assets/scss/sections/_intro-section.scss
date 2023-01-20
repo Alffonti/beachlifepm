@@ -3,7 +3,7 @@
 
 .intro-section {
   background: rgba($color: $primary, $alpha: 0.8);
-  background-image: url('http://beachlifepm.local/wp-content/themes/beachlifepm/assets/images/intro.jpg');
+  background-image: url('http://beachlifepm.com/wp-content/uploads/2023/01/intro.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-blend-mode: screen;
@@ -12,12 +12,12 @@
 
   .intro--title {
     color: #6c4650;
-    text-shadow: 1px 1px 1px rgba($color: $black, $alpha: 0.8);
+    text-shadow: 1px 1px 1px rgba($color: $black, $alpha: 0.1);
     padding-bottom: 1rem;
   }
 
   .intro--subtitle {
-    color: #black;
+    color: $black;
     font-weight: 500;
     padding-bottom: 2rem;
   }

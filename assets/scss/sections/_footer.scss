@@ -1,0 +1,11 @@
+@use '../custom' as *;
+@use '../components/mixins' as *;
+
+.footer {
+  background-color: $sagey-green;
+
+  a {
+    color: rgba($color: $black, $alpha: 0.7);
+    text-decoration: none;
+  }
+}

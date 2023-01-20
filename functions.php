@@ -20,3 +20,8 @@ function blpm_assets() {
 
 // Enqueue scripts
 add_action( 'wp_enqueue_scripts', 'blpm_assets' );
+
+add_filter('ai1wm_exclude_content_from_export', function($exclude_filters) {
+  $exclude_filters[] = 'themes/beachlifepm/node_modules';
+  return $exclude_filters;
+});

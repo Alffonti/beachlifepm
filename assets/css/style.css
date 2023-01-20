@@ -10806,7 +10806,7 @@ textarea.form-control-lg {
 
 .intro-section {
   background: rgba(143, 184, 202, 0.8);
-  background-image: url("http://beachlifepm.local/wp-content/themes/beachlifepm/assets/images/intro.jpg");
+  background-image: url("http://beachlifepm.com/wp-content/uploads/2023/01/intro.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-blend-mode: screen;
@@ -10815,11 +10815,11 @@ textarea.form-control-lg {
 }
 .intro-section .intro--title {
   color: #6c4650;
-  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.8);
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);
   padding-bottom: 1rem;
 }
 .intro-section .intro--subtitle {
-  color: #black;
+  color: #000;
   font-weight: 500;
   padding-bottom: 2rem;
 }
@@ -10829,6 +10829,22 @@ textarea.form-control-lg {
 
 .about-section .about--image {
   object-fit: cover;
+}
+
+.properties-section {
+  background-color: rgba(143, 184, 202, 0.5);
+}
+
+.contact-section {
+  background-color: rgba(143, 184, 202, 0.1);
+}
+
+.footer {
+  background-color: #91ac9a;
+}
+.footer a {
+  color: rgba(0, 0, 0, 0.7);
+  text-decoration: none;
 }
 
 /*# sourceMappingURL=style.css.map */

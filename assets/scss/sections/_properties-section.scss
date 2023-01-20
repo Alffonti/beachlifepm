@@ -1,0 +1,6 @@
+@use '../custom' as *;
+@use '../components/mixins' as *;
+
+.properties-section {
+  background-color: rgba($color: $light-blue, $alpha: 0.5);
+}
