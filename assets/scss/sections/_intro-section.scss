@@ -2,10 +2,16 @@
 @use '../components/mixins' as *;
 
 .intro-section {
-  // background: rgba($color: $secondary, $alpha: 0.2);
-  background-image: url('https://images.pexels.com/photos/10785568/pexels-photo-10785568.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2');
+  background: rgba($color: $black, $alpha: 0.75);
+  background-image: url('https://images.pexels.com/photos/10785568/pexels-photo-10785568.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2'); /* fallback */
+  background-image: url('https://images.pexels.com/photos/10785568/pexels-photo-10785568.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2'),
+    radial-gradient(
+      rgba($color: $white, $alpha: 0.65),
+      rgba($color: $black, $alpha: 0.2)
+    ); /* W3C */
+
   background-repeat: no-repeat;
-  background-position: 0 100%;
+  background-position: 0 65%;
   background-size: cover;
   background-blend-mode: screen;
   width: 100%;

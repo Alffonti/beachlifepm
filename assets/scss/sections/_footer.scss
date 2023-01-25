@@ -2,7 +2,7 @@
 @use '../components/mixins' as *;
 
 .footer {
-  background-color: $sagey-green;
+  background-color: $primary;
 
   a {
     color: rgba($color: $black, $alpha: 0.7);
