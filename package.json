@@ -4,7 +4,7 @@
   "description": "This project aims to create a landing page for a property management company in South Carolina, USA.",
   "main": "index.js",
   "scripts": {
-    "compile:sass": "sass --watch assets/scss:assets/css"
+    "compile:sass": "sass --watch assets/scss:assets/css --no-source-map --style compressed"
   },
   "keywords": [],
   "author": "",

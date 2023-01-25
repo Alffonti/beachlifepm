@@ -26,10 +26,6 @@ Font Awesome icons were downloaded from https://fontawesome.com/download. Only t
 
 The following npm-script was added `compile:sass": "sass --watch assets/scss:assets/css` to compile SASS into CSS.
 
-## Customizing Bootstrap
-
-
-
 ## Tools
 
 - VS Code
