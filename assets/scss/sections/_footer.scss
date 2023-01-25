@@ -2,7 +2,9 @@
 @use '../components/mixins' as *;
 
 .footer {
-  background-color: $primary;
+  background-color: rgba($color: $primary, $alpha: 1);
+  background-image: url('https://img.freepik.com/free-vector/flat-summer-background_23-2148931400.jpg?w=1800&t=st=1674678093~exp=1674678693~hmac=a533dcb3b739564b1e1659ca15553254509c39a181b723767420a53251275024');
+  background-blend-mode: screen;
 
   a {
     color: rgba($color: $black, $alpha: 0.7);
